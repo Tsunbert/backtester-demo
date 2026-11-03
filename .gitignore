@@ -8,3 +8,9 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Project data & outputs
+data/
+artifacts/
+.pytest_cache/
+.ipynb_checkpoints/
