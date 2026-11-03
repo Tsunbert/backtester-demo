@@ -1,0 +1,25 @@
+[project]
+name = "backtester-demo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Tsunbert", email = "constantinrobert.stefan@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "arch>=8.0.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+    "scikit-learn>=1.9.1",
+    "torch>=2.15.0",
+    "vectordb>=0.0.21",
+]
+
+[project.scripts]
+backtester-demo = "backtester_demo:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
